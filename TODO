@@ -1,0 +1,21 @@
+TODO:
+
+:: GVars
+  - Find and solve the weird GVars bug that randomly appears on Windows and Mac versions. Bug causes some/all GVar variables to be locked to a particular state, stopping keyframe addition and the toggling of display overlays.
+
+::Models Game
+  - texture loading
+
+::Serialization
+  - (load the mvFailureQueueUIDs)
+  - more graceful file and dir handling - boost?
+
+::Map Lock Manager
+  - Implement timeout
+  - on unregister, check for stale locks and release.
+
+::Documentation
+  - Continue Doxygening
+
+::Mac OSX
+  - Find out why PTAMM works on a dual core MacBook Pro, but not on a Quad Core iMac.
